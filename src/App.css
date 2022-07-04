@@ -1,38 +1,249 @@
-.App {
+.main-logo{
+  width: 263px;
+  height: 88px;
+}
+/* justify-content-md-center */
+.nav-link{
+  color: black;
+  font-weight: 600;
+  /* padding: 0 12px; */
+  margin: 0px 6px;
+  font-size: 15px;
+  width: 79px;
+}
+/* .nav-link:first-child{
+  margin: 0px;
+} */
+
+/* background banner section */   
+.main-banner-div{
+  margin-top: -23px;
+}
+.banner-img{
+  width: 100%;
+}
+.overlap-section{
+  top: 110px;
+}
+.form-submition{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+  right: 46px;
+  padding: 16px 29px;
+  border-radius: 12px;
+}
+.banner-heading{
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+}
+.apply-now-heading{
+  font-weight: 600;
+  margin-top: 17px;
+  font-size: 19px;
+}
+.discoverEndless{
+  color: white;
+  font-size: 34px;
+}
+.destiantionEducation{
+  color: rgb(255, 221, 0);
+  font-size: 60px;
+  font-weight: 700;
+}
+.puAbroad{
+  font-size: large;
+  color: silver;
+}
+.moreUniversity{
+  color: rgb(255, 221, 0);
+  font-weight: 700;
+  font-size: 22px;
+}
+.collab{
+  color: rgb(255, 221, 0);
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.withParameter{
+  color: silver;
+}
+.study-abroad{
+  color: rgb(255, 221, 0);
+  margin: 0px 6px;
+  padding: 13px 16px;
+  font-size: large;
+  font-weight: 500;
+}
+.banner-apply-now{
+  margin-top: 15px;
+  background-color: #009EFF;
+  padding: 9px 24px;
+font-weight: 600;
+}
+.apply-button-section{
+  margin: 20px 0 0 0px;
+}
+
+/* about section */
+.about-container-div{
+  margin: 85px auto;
+}
+.parulUniImg{
+  width: 100%;
+}
+.about-row-div{
+  justify-content: space-around;
+}
+.aboutHeading{
+  color: #0084D6;
+  font-weight: bold;
+  font-size: 28px;
+}
+.aboutPara{
+  display: flex;
+  text-align: justify;
+  margin: 15px 0;
+}
+/* university experience */
+.uniExpBackground-main-div{
+  background-image: url('./logos/universityExp.png');
+  width: 100%;
+  background-position: center;
+}
+.uniExpBackground{
+  width: 100%;
+}
+.uniExpHeading{
+  color: #0084D6;
+  padding: 38px 0px;
+}
+.main-data-no{
+  font-size: 24px;
+  font-weight: 700;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-data-para{
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-list-data{
+  display: contents;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+}
+.list-main-div{
+  display: flex; 
+justify-content: space-between;
+}
+.sub-list{
+  width: 11%;
+  margin: 8px 23px;
+}
+.uniExpMainDiv{
+  width: 60%;
+  padding-bottom: 34px;
+}
+                  /* Study Adroad */
+.studyAbroadHeading{
+  color: #0084D6;
+  /* font-size: 37px; */
+  font-weight: 700;
+  text-align: center;
+  margin-top: 86px;
+  margin-bottom: 40px;
+}
+.card-4, .card-2{
+  background-color: #0084D6;
+  height: 260px;
+  width: 260px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffff;
+  align-items: center;
+}
+.card-1, .card-3{
+  background-color: #0E3852;
+  height: 260px;
+  width: 260px;
+  color: #ffff;
+  font-weight: normal;
+  text-align: center;
+  /* justify-content: center;
+  display: flex; */
+  align-items: center;
+}
+.row-main-div{
+  margin-bottom: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+/* help mstudy abroad */
+.help-abroad{
+  margin: 100px 0;
+}
+.here-is-how-head{
+  font-weight: bold;
+  text-align: center;
+}
+.help-you-study-head{
+  font-weight: bold;
+  text-align: center;
+  color: #0084D6;
+}
+.help-study-abroad-div{
+  width: 229px;
+  text-align: center;
+}
+.help-study-abroad-img{
+  height: 97px;
+  /* text-align: center; */
+  margin: 20px 0;
+}
+.help-study-abroad-heading{
+  font-weight: 600;
+}
+.help-study-abroad-para{
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* abroad student */
+.our-student-heading{
+  font-weight: 700;
+  color: #0084D6;
+}
+.card-1-1{
+  /* background-image: url('./logos/candidate-1.png');  */
+  height: 260px;
+  width: 260px;  
+  background-repeat: no-repeat;
+  /* justify-content: center;
+  display: flex; */
+  align-items: center;
+}
+
+.custom-card{
+  height: 261px;
+  width: 226px;
+  background-color: #0E3852;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.our-student-card-col{
+
+}
+.our-student-card-img{
+  margin: 0 -12px;
+}
+.custom-card-img{
+  border: none;
+  padding: 0px 0px;
+  height: 261px;
+}
+.card-img{
+  height: inherit;
 }
