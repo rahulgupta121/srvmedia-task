@@ -1,6 +1,6 @@
 .main-logo{
-  width: 263px;
-  height: 88px;
+  width: 200px;
+  height: 57px;
 }
 /* justify-content-md-center */
 .nav-link{
@@ -29,7 +29,7 @@
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 1;
-  top: 85px;
+  top: 64px;
   right: 46px;
   padding: 16px 29px;
   border-radius: 12px;
@@ -213,6 +213,7 @@ justify-content: space-between;
 .our-student-heading{
   font-weight: 700;
   color: #0084D6;
+  margin: 67px 0;
 }
 .card-1-1{
   /* background-image: url('./logos/candidate-1.png');  */
@@ -232,6 +233,7 @@ justify-content: space-between;
   text-align: center;
   display: flex;
   justify-content: center;
+  border-radius: 0px;
 }
 .our-student-card-col{
 
@@ -243,7 +245,94 @@ justify-content: space-between;
   border: none;
   padding: 0px 0px;
   height: 261px;
+  width: 226px;
+  border-radius: 0px;
 }
 .card-img{
   height: inherit;
+}
+/* LanguageTraining Background */
+.languageTrainin-background{
+  width: 100%;
+}
+.languageTraining-main-div{
+  position: relative;
+}
+.languageTraining-row{
+  position: absolute;
+  top: 0;
+  margin: 65px 0;
+  justify-content: space-between;
+}
+.languageTraining-heading{
+  font-weight: bold;
+font-size: 31px;
+color: #0084D6;
+}
+.languageTraining-list-head{
+  color: #000;
+  font-weight: 600;
+}
+.left-arrow{
+  color: #009EFF;
+}
+.language-tranning-list{ 
+  padding: 2px 0;
+  margin: 0;
+}
+/* Scholarship-sections */
+.Scholarship-main-div{
+  background-color: #0E3852;
+  color: #ffff;
+  text-align: center;
+}
+.Scholarship-heading{
+  font-weight: 600;
+  font-size: 22px;
+  padding: 35px 0;
+}
+.Scholarship-para{
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+.HappyLearner-main-div{
+
+}
+.HappyLearner-heading{
+  text-align: center;
+  color: #0084D6;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 63px;
+}
+.HappyLearner-div-1, .HappyLearner-div-2{
+  border: solid 1px black;
+  text-align: center;
+  height: 380px;
+  margin: 50px 0;
+  border-radius: 8px;
+}
+.HappyLearner-col-1 , .HappyLearner-col-2{
+  width: 80%; 
+}
+.invertedCommas{
+  margin: 29px 0;
+}
+.HappyLearner-para {
+  font-size: 14px;
+  padding: 39px;
+}
+.auther-name{
+  font-weight: 600;
+}
+/* footer */
+.footerMain-div{
+  background-color: #0E3852;
+  
+}
+.footerMain-para{
+  text-align: center;
+  color: #fff;
+  padding: 12px 0;
+  margin: 0;
 }

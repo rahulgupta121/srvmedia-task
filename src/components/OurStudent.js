@@ -66,7 +66,7 @@ export default function OurStudent() {
  
 </Card>
 
-<Card className='custom-card-img' style={{ width: '17rem' }}>
+<Card className='custom-card-img'>
   <Card.Img className='card-img' variant="top" src={candidate} />
 </Card>
 
@@ -74,14 +74,14 @@ export default function OurStudent() {
   <h5>AKSHAR PATEL</h5>
     <h6>Fachhochschule des Mittelstands (FHM) Germany</h6>
 </Card>
-<Card className='custom-card-img' style={{ width: '17rem' }}>
+<Card className='custom-card-img'>
   <Card.Img className='card-img' variant="top" src={candidate} />
 </Card>
 {/* row 2nd */}
 <Row className='justify-content-center'>
 
 
-<Card className='custom-card-img' style={{ width: '17rem' }}>
+<Card className='custom-card-img'>
   <Card.Img className='card-img' variant="top" src={candidate} />
 </Card>
 
@@ -90,7 +90,7 @@ export default function OurStudent() {
 <h6>Conestoge University Canada</h6>
 </Card>
 
-<Card className='custom-card-img' style={{ width: '17rem' }}>
+<Card className='custom-card-img'>
   <Card.Img className='card-img' variant="top" src={candidate} />
 </Card>
 <Card className='custom-card'>
